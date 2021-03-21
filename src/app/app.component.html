@@ -1,0 +1,7 @@
+<button (click)="navigate('bundle')" routerLink="../bundle" [ngClass]="{'selected':currentPage==='bundle'}">
+  Bundle
+</button>
+<button (click)="navigate('company')" routerLink="../company" [ngClass]="{'selected':currentPage==='company'}">
+  Company
+</button>
+<router-outlet></router-outlet>
